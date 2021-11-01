@@ -45,7 +45,6 @@ input::placeholder {
 #bonus_cont{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
 }
 
@@ -55,3 +54,40 @@ input::placeholder {
     margin:25px;
 }
 
+.student-card{
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.add-button{
+    background-color:#1DA1F2;
+    color: white;
+    border: 0;
+    height: 25px;
+    width: 15%;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.delete-button{
+    background-color:#eb352f;
+    color: white;
+    border: 0;
+    height: 25px;
+    width: 15%;
+    border-radius: 5px;
+    margin-left:50%;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.card-text{
+    margin-left: 25px;
+}
